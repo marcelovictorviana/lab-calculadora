@@ -9,11 +9,16 @@ using System.Windows.Forms;
 
 namespace Calculadora
 {
-    public partial class Form1 : Form
+    public partial class fm_calculadora : Form
     {
-        public Form1()
+        public fm_calculadora()
         {
             InitializeComponent();
+        }
+
+        private void fm_calculadora_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
