@@ -85,6 +85,7 @@
             this.bt_sete.TabIndex = 3;
             this.bt_sete.Text = "7";
             this.bt_sete.UseVisualStyleBackColor = true;
+            this.bt_sete.Click += new System.EventHandler(this.bt_sete_Click);
             // 
             // bt_oito
             // 
@@ -94,6 +95,7 @@
             this.bt_oito.TabIndex = 4;
             this.bt_oito.Text = "8";
             this.bt_oito.UseVisualStyleBackColor = true;
+            this.bt_oito.Click += new System.EventHandler(this.bt_oito_Click);
             // 
             // bt_nove
             // 
@@ -103,6 +105,7 @@
             this.bt_nove.TabIndex = 5;
             this.bt_nove.Text = "9";
             this.bt_nove.UseVisualStyleBackColor = true;
+            this.bt_nove.Click += new System.EventHandler(this.bt_nove_Click);
             // 
             // bt_soma
             // 
@@ -112,6 +115,7 @@
             this.bt_soma.TabIndex = 6;
             this.bt_soma.Text = "+";
             this.bt_soma.UseVisualStyleBackColor = true;
+            this.bt_soma.Click += new System.EventHandler(this.bt_soma_Click);
             // 
             // bt_quatro
             // 
@@ -121,6 +125,7 @@
             this.bt_quatro.TabIndex = 7;
             this.bt_quatro.Text = "4";
             this.bt_quatro.UseVisualStyleBackColor = true;
+            this.bt_quatro.Click += new System.EventHandler(this.bt_quatro_Click);
             // 
             // bt_cinco
             // 
@@ -130,6 +135,7 @@
             this.bt_cinco.TabIndex = 8;
             this.bt_cinco.Text = "5";
             this.bt_cinco.UseVisualStyleBackColor = true;
+            this.bt_cinco.Click += new System.EventHandler(this.bt_cinco_Click);
             // 
             // bt_seis
             // 
@@ -139,6 +145,7 @@
             this.bt_seis.TabIndex = 9;
             this.bt_seis.Text = "6";
             this.bt_seis.UseVisualStyleBackColor = true;
+            this.bt_seis.Click += new System.EventHandler(this.bt_seis_Click);
             // 
             // bt_subtracao
             // 
@@ -149,6 +156,7 @@
             this.bt_subtracao.TabIndex = 10;
             this.bt_subtracao.Text = "-";
             this.bt_subtracao.UseVisualStyleBackColor = true;
+            this.bt_subtracao.Click += new System.EventHandler(this.bt_subtracao_Click);
             // 
             // bt_um
             // 
@@ -158,6 +166,7 @@
             this.bt_um.TabIndex = 11;
             this.bt_um.Text = "1";
             this.bt_um.UseVisualStyleBackColor = true;
+            this.bt_um.Click += new System.EventHandler(this.bt_um_Click);
             // 
             // bt_dois
             // 
@@ -167,6 +176,7 @@
             this.bt_dois.TabIndex = 12;
             this.bt_dois.Text = "2";
             this.bt_dois.UseVisualStyleBackColor = true;
+            this.bt_dois.Click += new System.EventHandler(this.bt_dois_Click);
             // 
             // bt_tres
             // 
@@ -176,6 +186,7 @@
             this.bt_tres.TabIndex = 13;
             this.bt_tres.Text = "3";
             this.bt_tres.UseVisualStyleBackColor = true;
+            this.bt_tres.Click += new System.EventHandler(this.bt_tres_Click);
             // 
             // bt_multiplicacao
             // 
@@ -186,6 +197,7 @@
             this.bt_multiplicacao.TabIndex = 14;
             this.bt_multiplicacao.Text = "*";
             this.bt_multiplicacao.UseVisualStyleBackColor = true;
+            this.bt_multiplicacao.Click += new System.EventHandler(this.bt_multiplicacao_Click);
             // 
             // bt_zero
             // 
@@ -195,6 +207,7 @@
             this.bt_zero.TabIndex = 15;
             this.bt_zero.Text = "0";
             this.bt_zero.UseVisualStyleBackColor = true;
+            this.bt_zero.Click += new System.EventHandler(this.bt_zero_Click);
             // 
             // bt_divisao
             // 
@@ -204,6 +217,7 @@
             this.bt_divisao.TabIndex = 16;
             this.bt_divisao.Text = "/";
             this.bt_divisao.UseVisualStyleBackColor = true;
+            this.bt_divisao.Click += new System.EventHandler(this.bt_divisao_Click);
             // 
             // bt_virgula
             // 
