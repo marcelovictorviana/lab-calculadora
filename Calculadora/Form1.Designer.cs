@@ -56,7 +56,6 @@
             this.tb_calculadora.Name = "tb_calculadora";
             this.tb_calculadora.Size = new System.Drawing.Size(231, 32);
             this.tb_calculadora.TabIndex = 0;
-            this.tb_calculadora.Text = "0";
             this.tb_calculadora.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // bt_backspace
@@ -67,6 +66,7 @@
             this.bt_backspace.TabIndex = 1;
             this.bt_backspace.Text = "<---";
             this.bt_backspace.UseVisualStyleBackColor = true;
+            this.bt_backspace.Click += new System.EventHandler(this.bt_backspace_Click);
             // 
             // bt_reset
             // 
@@ -76,6 +76,7 @@
             this.bt_reset.TabIndex = 2;
             this.bt_reset.Text = "C";
             this.bt_reset.UseVisualStyleBackColor = true;
+            this.bt_reset.Click += new System.EventHandler(this.bt_reset_Click);
             // 
             // bt_sete
             // 
@@ -228,6 +229,7 @@
             this.bt_virgula.TabIndex = 17;
             this.bt_virgula.Text = ",";
             this.bt_virgula.UseVisualStyleBackColor = true;
+            this.bt_virgula.Click += new System.EventHandler(this.bt_virgula_Click);
             // 
             // bt_resultado
             // 
@@ -237,6 +239,7 @@
             this.bt_resultado.TabIndex = 18;
             this.bt_resultado.Text = "=";
             this.bt_resultado.UseVisualStyleBackColor = true;
+            this.bt_resultado.Click += new System.EventHandler(this.bt_resultado_Click);
             // 
             // fm_calculadora
             // 
